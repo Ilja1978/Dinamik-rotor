@@ -1,0 +1,25 @@
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.exe
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.deps.json
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.runtimeconfig.json
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.runtimeconfig.dev.json
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.dll
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.pdb
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.csproj.AssemblyReference.cache
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfoInputs.cache
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfo.cs
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.csproj.CoreCompileInputs.cache
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.dll
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.pdb
+D:\Мои документы\ИЛЬЯ\ШАГ\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.genruntimeconfig.cache
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.exe
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.deps.json
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.runtimeconfig.json
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.runtimeconfig.dev.json
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.dll
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.pdb
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.csprojAssemblyReference.cache
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfoInputs.cache
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfo.cs
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.dll
+F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.pdb
