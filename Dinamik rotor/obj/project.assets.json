@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\pc-5\\.nuget\\packages\\": {}
+    "C:\\Users\\pc-13\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "F:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj",
       "projectName": "Dinamik rotor",
       "projectPath": "F:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj",
-      "packagesPath": "C:\\Users\\pc-5\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\pc-13\\.nuget\\packages\\",
       "outputPath": "F:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pc-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc-13\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

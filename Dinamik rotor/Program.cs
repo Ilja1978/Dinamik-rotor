@@ -6,7 +6,7 @@ namespace Dinamik_rotor
     {
         public void menu1()
         {
-
+            //////////
         }
        
 
