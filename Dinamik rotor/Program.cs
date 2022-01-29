@@ -2,15 +2,7 @@
 
 namespace Dinamik_rotor
 {
-    class MenuGlav
-    {
-        public void menu1()
-        {
-            //////////
-        }
-       
-
-    }
+    
     class Program
     {
         static void  MenuGlav()
@@ -363,7 +355,12 @@ namespace Dinamik_rotor
         }
         static void Main(string[] arg)
         {
-            MenuGlav();
+            Parol rotor = new Parol();
+            if (rotor.Proverka())
+            {
+                MenuGlav();
+            }
+            
 
         }
         }
