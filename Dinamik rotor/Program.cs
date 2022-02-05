@@ -5,7 +5,7 @@ namespace Dinamik_rotor
     
     class Program
     {
-        static void  MenuGlav()
+        static bool  MenuGlav()
         {
             Console.WriteLine("\tРАСЧЕТ ДИНАМИЧЕСКОЙ НЕУРАВНОВЕШЕННОСТИ РОТОРОВ\n");
             Console.WriteLine("1. Расчет корректирующих масс");
@@ -22,6 +22,7 @@ namespace Dinamik_rotor
                 Console.Write("Выбирете нужную функцию\t\t");
                 string F = Console.ReadLine();
                 num = Convert.ToInt32(F);
+               // if (num == 8) { return false; }
                 switch (num)
                 {
                     case 1:
@@ -61,13 +62,15 @@ namespace Dinamik_rotor
                         Menu7();
                         break;
                     case 8:
-                        Console.Clear();
+                        //Console.Clear();
+                        return false;
                         break;
-                        //if (num > 7)
-                        // Console.Write("\b");
+                        
                 }
             }
-            while (num>8);
+            while (num == 8);
+            if (num == 8) { return false; }
+            else return true;
 
         }
         static void Menu1()
@@ -132,6 +135,7 @@ namespace Dinamik_rotor
                 Console.Write("\nВыбирете нужную функцию\t\t");
                 string F = Console.ReadLine();
                 num = Convert.ToInt32(F);
+               
                 switch (num)
                 {
                     case 1:
@@ -148,6 +152,8 @@ namespace Dinamik_rotor
                     case 3:
                         // Вызываем  нужный класс
                         Console.Clear();
+                        Viborka_metala Lin = new Viborka_metala();
+                        Lin.Lineino();
 
                         break;
                     case 4:
@@ -231,6 +237,8 @@ namespace Dinamik_rotor
                     case 1:
                         // Вызываем  нужный класс
                         Console.Clear();
+                        Kompensir_mass VShponka = new Kompensir_mass();
+                        VShponka.Shponka();
 
 
                         break;
@@ -355,10 +363,16 @@ namespace Dinamik_rotor
         }
         static void Main(string[] arg)
         {
+            bool s = true;
             Parol rotor = new Parol();
             if (rotor.Proverka())
             {
-                MenuGlav();
+                
+                while (s==true)
+                {
+                     s = MenuGlav();
+                    Console.Clear();
+                }
             }
             
 

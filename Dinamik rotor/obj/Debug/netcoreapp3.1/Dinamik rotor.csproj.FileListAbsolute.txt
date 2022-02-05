@@ -23,3 +23,16 @@ F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Di
 F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfo.cs
 F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.dll
 F:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.pdb
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfoInputs.cache
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.AssemblyInfo.cs
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.csproj.CoreCompileInputs.cache
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.dll
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.pdb
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.exe
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.deps.json
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.runtimeconfig.json
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.runtimeconfig.dev.json
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.dll
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\bin\Debug\netcoreapp3.1\Dinamik rotor.pdb
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.genruntimeconfig.cache
+J:\Програмирование на С# (Шарп)\ПРОЕКТ РОТОР\Dinamik rotor\Dinamik rotor\obj\Debug\netcoreapp3.1\Dinamik rotor.csprojAssemblyReference.cache
