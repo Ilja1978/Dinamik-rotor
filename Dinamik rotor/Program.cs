@@ -2,10 +2,10 @@
 
 namespace Dinamik_rotor
 {
-    
+
     class Program
     {
-        static bool  MenuGlav()
+        static bool MainMenu() // Главное меню нашей программы
         {
             Console.WriteLine("\tРАСЧЕТ ДИНАМИЧЕСКОЙ НЕУРАВНОВЕШЕННОСТИ РОТОРОВ\n");
             Console.WriteLine("1. Расчет корректирующих масс");
@@ -22,58 +22,59 @@ namespace Dinamik_rotor
                 Console.Write("Выбирете нужную функцию\t\t");
                 string F = Console.ReadLine();
                 num = Convert.ToInt32(F);
-               // if (num == 8) { return false; }
+                // if (num == 8) { return false; }
                 switch (num)
                 {
                     case 1:
                         // Вызываем  нужную функцию(метод)
                         Console.Clear();
-                        Menu1();
+                        CorrectiveMassnu1(); // Входим в меню 1 "Расчет корректирующих масс"
 
                         break;
                     case 2:
                         // Вызываем  нужную функцию
                         Console.Clear();
-                        Menu2();
+                        EatingMetal();  // Входим в меню 2 "Расчет выборок металла"
                         break;
                     case 3:
                         // Вызываем  нужную функцию
                         Console.Clear();
-                        Menu3();
+                        //Amplitude(); // Входим в меню 3 "Расчет амплитуд"
                         break;
                     case 4:
                         // Вызываем  нужную функцию
                         Console.Clear();
-                        Menu4();
+                       // Compensation();  // Входим в меню 4 "Расчет компенсирующих масс"
                         break;
                     case 5:
                         // Вызываем  нужную функцию
                         Console.Clear();
-                        Menu5();
+                        //Calculations();  // Входим в меню 5 "Прочие расчеты"
                         break;
                     case 6:
                         // Вызываем  нужную функцию
                         Console.Clear();
-                        Menu6();
+                       // Vibration();   // Входим в меню 6 "Перевод амплитуд"
                         break;
                     case 7:
                         // Вызываем  нужную функцию
                         Console.Clear();
-                        Menu7();
+                       // Database();   // Входим в меню 7 "База данных" 
                         break;
                     case 8:
                         //Console.Clear();
-                        return false;
-                        break;
-                        
+                        return false;   // Выходим из программы
+                                        //break;
+
                 }
             }
             while (num == 8);
-            if (num == 8) { return false; }
-            else return true;
+            // if (num == 8) { return false; }
+            //else 
+            return true;
 
         }
-        static void Menu1()
+        static void CorrectiveMassnu1() // Меню 1 "Расчет корректирующих масс"
         {
             Console.WriteLine("\t\tРАСЧЕТ КОРЕКТИРУЮЩИХ МАСС РОТОРА\n");
             Console.WriteLine("1. Расчет корректирующих масс по 1 плоскости");
@@ -85,42 +86,42 @@ namespace Dinamik_rotor
             do
             {
                 Console.Write("Выбирете нужную функцию\t\t");
-                string F = Console.ReadLine();
-                num = Convert.ToInt32(F);
+                string Choice = Console.ReadLine();
+                num = Convert.ToInt32(Choice);
                 switch (num)
                 {
                     case 1:
                         // Вызываем  нужный класс
                         Console.Clear();
-                        
+
 
                         break;
                     case 2:
                         // Вызываем   нужный класс
                         Console.Clear();
-                       
+
                         break;
                     case 3:
                         // Вызываем  нужный класс
                         Console.Clear();
-                        
+
                         break;
                     case 4:
                         // Вызываем   нужный класс
                         Console.Clear();
-                        
+
                         break;
                     case 5:
                         // Возвращаемся в Главное меню
                         Console.Clear();
-                        MenuGlav();
+                        MainMenu();
                         break;
-                   
+
                 }
             }
             while (num > 5);
         }
-        static void Menu2()
+        static void EatingMetal()   // Меню 2 "Расчет выборок металла"
         {
             Console.WriteLine("\t\tРАСЧЕТ ВЫБОРОК МЕТАЛЛА\n");
             Console.WriteLine("1. Расчет выборки металла методом ''Ромашка'' ");
@@ -135,7 +136,7 @@ namespace Dinamik_rotor
                 Console.Write("\nВыбирете нужную функцию\t\t");
                 string F = Console.ReadLine();
                 num = Convert.ToInt32(F);
-               
+
                 switch (num)
                 {
                     case 1:
@@ -152,8 +153,8 @@ namespace Dinamik_rotor
                     case 3:
                         // Вызываем  нужный класс
                         Console.Clear();
-                        Viborka_metala Lin = new Viborka_metala();
-                        Lin.Lineino();
+                        NewMethod(); //
+
 
                         break;
                     case 4:
@@ -169,213 +170,264 @@ namespace Dinamik_rotor
                     case 6:
                         // Возвращаемся в Главное меню
                         Console.Clear();
-                        MenuGlav();
+                        MainMenu();
                         break;
 
                 }
             }
             while (num > 6);
         }
-        static void Menu3()
+        private static void NewMethod()
         {
-            Console.WriteLine("\t\tРАСЧЕТ АММПЛИТУД\n");
-            Console.WriteLine("1. Сведение амплитуд к одной равнодействующей");
-            Console.WriteLine("2. Рапределение амплитуд на две составляющие");
-            Console.WriteLine("3. Вычитание амплитуд");
-            Console.WriteLine("4. Выход в главное меню");
-            int num;
+            string Choice;
             do
             {
-                Console.Write("\nВыбирете нужную функцию\t\t");
-                string F = Console.ReadLine();
-                num = Convert.ToInt32(F);
-                switch (num)
-                {
-                    case 1:
-                        // Вызываем  нужный класс
-                        Console.Clear();
-
-
-                        break;
-                    case 2:
-                        // Вызываем   нужный класс
-                        Console.Clear();
-
-                        break;
-                    case 3:
-                        // Вызываем  нужный класс
-                        Console.Clear();
-
-                        break;
-                   
-                    case 4:
-                        // Возвращаемся в Главное меню
-                        Console.Clear();
-                        MenuGlav();
-                        break;
-
-                }
+                double m, b, h, l;
+                MetalSampling V = new MetalSampling();  // Вызываем класс Выборка металла
+               // MetalSampling.LinearSampling(); // вызываем метод линейная выборка класса выборка металла
+                Console.Write("Введите массу\t");
+                string Mas = Console.ReadLine();
+                m = Convert.ToDouble(Mas);
+                Console.Write("Введите ширину\t");
+                string Shir = Console.ReadLine();
+                b = Convert.ToDouble(Shir);
+                Console.Write("Введите высоту \t");
+                string Vis = Console.ReadLine();
+                h = Convert.ToDouble(Vis);
+                V.LinearSampling(m, b, h);
+                l =  V.LinearSampling(m, b, h);
+                Console.WriteLine("Длинна выборки\t = \t" + l);
+                Console.WriteLine("Масса выборки  =   " + m);
+                Console.WriteLine("Повторить расчет\t-\tY");
+                Console.WriteLine("Выйти в главное меню\t-\tN");
+                Choice = Console.ReadLine();
             }
-            while (num > 4);
-        }
-        static void Menu4()
-        {
-            Console.WriteLine("\t\tРАССЧЕТ КОМПЕНСИРУЮЩИХ МАСС\n");
-            Console.WriteLine("1. Расчет выпуклой полушпонки");
-            Console.WriteLine("2. Расчет вогнутой полушпонки");
-            Console.WriteLine("3. Расчет лепестка");
-            Console.WriteLine("4. Расчет штифта");
-            Console.WriteLine("5. Выход в главное меню");
-            int num;
-            do
+            while (Choice == "N");
+            static void Amplitude()   // Меню 3 "Расчет амплитуд"
             {
-                Console.Write("\nВыбирете нужную функцию\t\t");
-                string F = Console.ReadLine();
-                num = Convert.ToInt32(F);
-                switch (num)
+                Console.WriteLine("\t\tРАСЧЕТ АММПЛИТУД\n");
+                Console.WriteLine("1. Сведение амплитуд к одной равнодействующей");
+                Console.WriteLine("2. Рапределение амплитуд на две составляющие");
+                Console.WriteLine("3. Вычитание амплитуд");
+                Console.WriteLine("4. Выход в главное меню");
+                int num;
+                do
                 {
-                    case 1:
-                        // Вызываем  нужный класс
-                        Console.Clear();
-                        Kompensir_mass VShponka = new Kompensir_mass();
-                        VShponka.Shponka();
+                    Console.Write("\nВыбирете нужную функцию\t\t");
+                    string F = Console.ReadLine();
+                    num = Convert.ToInt32(F);
+                    switch (num)
+                    {
+                        case 1:
+                            // Вызываем  нужный класс
+                            Console.Clear();
 
 
-                        break;
-                    case 2:
-                        // Вызываем   нужный класс
-                        Console.Clear();
+                            break;
+                        case 2:
+                            // Вызываем   нужный класс
+                            Console.Clear();
 
-                        break;
-                    case 3:
-                        // Вызываем  нужный класс
-                        Console.Clear();
+                            break;
+                        case 3:
+                            // Вызываем  нужный класс
+                            Console.Clear();
 
-                        break;
-                    case 4:
-                        // Вызываем   нужный класс
-                        Console.Clear();
+                            break;
 
-                        break;
-                    case 5:
-                        // Возвращаемся в Главное меню
-                        Console.Clear();
-                        MenuGlav();
-                        break;
+                        case 4:
+                            // Возвращаемся в Главное меню
+                            Console.Clear();
+                            MainMenu();
+                            break;
 
+                    }
                 }
+                while (num > 4);
             }
-            while (num > 5);
-        }
-            
-        static void Menu5()
-        {
-            Console.WriteLine("\t\t\tПРОЧИЕ РАСЧЕТЫ\n");
-            Console.WriteLine("1. Выход в главное меню");
-            int num;
-            do
+            static void Compensation() // Меню 4 "Расчет компенсирующих масс"
             {
-                Console.Write("\nВыбирете нужную функцию\t\t");
-                string F = Console.ReadLine();
-                num = Convert.ToInt32(F);
-                switch (num)
+                Console.WriteLine("\t\tРАССЧЕТ КОМПЕНСИРУЮЩИХ МАСС\n");
+                Console.WriteLine("1. Расчет выпуклой полушпонки");
+                Console.WriteLine("2. Расчет вогнутой полушпонки");
+                Console.WriteLine("3. Расчет лепестка");
+                Console.WriteLine("4. Расчет штифта");
+                Console.WriteLine("5. Выход в главное меню");
+                int num;
+                do
                 {
+                    Console.Write("\nВыбирете нужную функцию\t\t");
+                    string F = Console.ReadLine();
+                    num = Convert.ToInt32(F);
+                    switch (num)
+                    {
+                        case 1:
+                            ShaftСompensation();  // Вызываем метод расчет выпуклой полушпонки
+                            break;
+                        case 2:
+                            // Вызываем   нужный класс
+                            Console.Clear();
 
-                    case 1:
-                        // Возвращаемся в Главное меню
-                        Console.Clear();
-                        MenuGlav();
-                        break;
+                            break;
+                        case 3:
+                            // Вызываем  нужный класс
+                            Console.Clear();
 
+                            break;
+                        case 4:
+                            // Вызываем   нужный класс
+                            Console.Clear();
+
+                            break;
+                        case 5:
+                            // Возвращаемся в Главное меню
+                            Console.Clear();
+                            MainMenu();
+                            break;
+
+                    }
                 }
+                while (num > 5);
             }
-            while (num > 1);
-        }
-        static void Menu6()
-        {
-            Console.WriteLine("\t\tПЕРЕВОД АМПЛИТУД\n");
-            Console.WriteLine("1. Перевод виброскорости в виброперемещение");
-            Console.WriteLine("2. Перевод виброперемещения в виброскорость");
-            Console.WriteLine("3. Перевод виброскорости в виброускорение");
-            Console.WriteLine("4. Перевод виброускорения в виброскорость");
-            Console.WriteLine("5. Выход в главное меню");
-            int num;
-            do
+
+             static void ShaftСompensation()  // Метод для расчета выпуклой полушпонки
             {
-                Console.Write("\nВыбирете нужную функцию\t\t");
-                string F = Console.ReadLine();
-                num = Convert.ToInt32(F);
-                switch (num)
+                // Вызываем  нужный класс
+                string Vibor;
+                do
                 {
-                    case 1:
-                        // Вызываем  нужный класс
-                        Console.Clear();
-
-
-                        break;
-                    case 2:
-                        // Вызываем   нужный класс
-                        Console.Clear();
-
-                        break;
-                    case 3:
-                        // Вызываем  нужный класс
-                        Console.Clear();
-
-                        break;
-                    case 4:
-                        // Вызываем   нужный класс
-                        Console.Clear();
-
-                        break;
-                    case 5:
-                        // Возвращаемся в Главное меню
-                        Console.Clear();
-                        MenuGlav();
-                        break;
-
-                }
-            }
-            while (num > 5);
-        }
-        static void Menu7()
-        {
-            Console.WriteLine("\t\t\tБАЗА ДАННЫХ\n");
-            Console.WriteLine("1. Выход в главное меню");
-            int num;
-            do
-            {
-                Console.Write("\nВыбирете нужную функцию\t\t");
-                string F = Console.ReadLine();
-                num = Convert.ToInt32(F);
-                switch (num)
-                {
-                    
-                    case 1:
-                        // Возвращаемся в Главное меню
-                        Console.Clear();
-                        MenuGlav();
-                        break;
-
-                }
-            }
-            while (num > 1);
-        }
-        static void Main(string[] arg)
-        {
-            bool s = true;
-            Parol rotor = new Parol();
-            if (rotor.Proverka())
-            {
-                
-                while (s==true)
-                {
-                     s = MenuGlav();
                     Console.Clear();
-                }
-            }
-            
+                    double m, b, h, l;
 
+                    KompensirMass VShponka = new KompensirMass(); // вызываем класс компенсация масс
+                    Console.Write("Введите длинну шпонки\t");
+                    string Dlin = Console.ReadLine();
+                    l = Convert.ToDouble(Dlin);
+                    Console.Write("Введите ширину\t");
+                    string Shir = Console.ReadLine();
+                    b = Convert.ToDouble(Shir);
+                    Console.Write("Введите высоту \t");
+                    string Vis = Console.ReadLine();
+                    h = Convert.ToDouble(Vis);
+                    VShponka.Shponka(b, h, l);  // передаем данные методу Шпонка класса компенсация масс
+                    m = VShponka.Shponka(b, h, l);  // Вызываем метод Шпонка класса компенсация масс
+                    Console.WriteLine("Масса выборки  =   " + m);
+                    Console.WriteLine("Повторить расчет\t-\tY");
+                    Console.WriteLine("Выйти в главное меню\t-\tN");
+                    Vibor = Console.ReadLine();
+                }
+                while (Vibor == "N");
+            }
+
+            static void Calculations()   // Меню 5 "Прочие расчеты"
+            {
+                Console.WriteLine("\t\t\tПРОЧИЕ РАСЧЕТЫ\n");
+                Console.WriteLine("1. Выход в главное меню");
+                int num;
+                do
+                {
+                    Console.Write("\nВыбирете нужную функцию\t\t");
+                    string F = Console.ReadLine();
+                    num = Convert.ToInt32(F);
+                    switch (num)
+                    {
+
+                        case 1:
+                            // Возвращаемся в Главное меню
+                            Console.Clear();
+                            MainMenu();
+                            break;
+
+                    }
+                }
+                while (num > 1);
+            }
+            static void Vibration()  // Меню 6 " Перевод амплитуд"
+            {
+                Console.WriteLine("\t\tПЕРЕВОД АМПЛИТУД \n");
+                Console.WriteLine("1. Перевод виброскорости в виброперемещение");
+                Console.WriteLine("2. Перевод виброперемещения в виброскорость");
+                Console.WriteLine("3. Перевод виброскорости в виброускорение");
+                Console.WriteLine("4. Перевод виброускорения в виброскорость");
+                Console.WriteLine("5. Выход в главное меню");
+                int num;
+                do
+                {
+                    Console.Write("\nВыбирете нужную функцию\t\t");
+                    string F = Console.ReadLine();
+                    num = Convert.ToInt32(F);
+                    switch (num)
+                    {
+                        case 1:
+                            // Вызываем  нужный класс
+                            Console.Clear();
+
+
+                            break;
+                        case 2:
+                            // Вызываем   нужный класс
+                            Console.Clear();
+
+                            break;
+                        case 3:
+                            // Вызываем  нужный класс
+                            Console.Clear();
+
+                            break;
+                        case 4:
+                            // Вызываем   нужный класс
+                            Console.Clear();
+
+                            break;
+                        case 5:
+                            // Возвращаемся в Главное меню
+                            Console.Clear();
+                            MainMenu();
+                            break;
+
+                    }
+                }
+                while (num > 5);
+            }
+            static void Database()  // Меню 7 " База данных"
+            {
+                Console.WriteLine("\t\t\tБАЗА ДАННЫХ\n");
+                Console.WriteLine("1. Выход в главное меню");
+                int num;
+                do
+                {
+                    Console.Write("\nВыбирете нужную функцию\t\t");
+                    string F = Console.ReadLine();
+                    num = Convert.ToInt32(F);
+                    switch (num)
+                    {
+
+                        case 1:
+                            // Возвращаемся в Главное меню
+                            Console.Clear();
+                            MainMenu();
+                            break;
+
+                    }
+                }
+                while (num > 1);
+            }
+            static void Main(string[] arg)
+            {
+                bool cod = true;
+                Password rotor = new Password();
+                if (rotor.Check())
+                {
+
+                    while (cod == true)
+                    {
+                        cod = MainMenu();
+                        Console.Clear();
+                    }
+                }
+
+
+            }
         }
-        }
+    }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj": {}
+    "D:\\Мои документы\\ИЛЬЯ\\ШАГ\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj": {}
   },
   "projects": {
-    "J:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj": {
+    "D:\\Мои документы\\ИЛЬЯ\\ШАГ\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj",
+        "projectUniqueName": "D:\\Мои документы\\ИЛЬЯ\\ШАГ\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj",
         "projectName": "Dinamik rotor",
-        "projectPath": "J:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "J:\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\obj\\",
+        "projectPath": "D:\\Мои документы\\ИЛЬЯ\\ШАГ\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\Dinamik rotor.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Мои документы\\ИЛЬЯ\\ШАГ\\Програмирование на С# (Шарп)\\ПРОЕКТ РОТОР\\Dinamik rotor\\Dinamik rotor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
