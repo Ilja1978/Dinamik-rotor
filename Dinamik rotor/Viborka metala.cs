@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dinamik_rotor
 {
-    class MetalSampling
+    class MetalSampling 
     {
         //private double m, b, h, l;
         private const double p = 7.82;
@@ -12,10 +12,10 @@ namespace Dinamik_rotor
         public double LinearSampling(double m, double b, double h)
         {
             
-            return  m / (p * b * h); ;
+            return  m / (p * b * h); 
         }
 
         
-        }
     }
+}
 

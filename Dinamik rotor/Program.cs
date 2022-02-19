@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Dinamik_rotor
 {
 
@@ -417,18 +418,24 @@ namespace Dinamik_rotor
         }
         static void Main(string[] arg)
         {
+            Console.WriteLine("\tВАС ПРИВЕТСТВУЕТ ПРОГРАММА РАСЧЕТОВ РОТОРОВ\n");
+            Console.Write("Введите код доступа\t");
+            string Code = Console.ReadLine(); // Вводим пароль с клавиатуры
             bool cod = true;
             Password rotor = new Password();
+            rotor.Cod(Code); // Передаем введенный пароль в класс  Password()
             if (rotor.Check())
             {
 
                 while (cod == true)
                 {
-                    cod = MainMenu();
                     Console.Clear();
+                    cod = MainMenu();
+                    
                 }
             }
-
+            else
+                Console.WriteLine("У вас нет прав доступа");
 
         }
     }
