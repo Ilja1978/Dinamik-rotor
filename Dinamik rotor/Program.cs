@@ -422,8 +422,10 @@ namespace Dinamik_rotor
             Console.Write("Введите код доступа\t");
             string Code = Console.ReadLine(); // Вводим пароль с клавиатуры
             bool cod = true;
-            Password rotor = new Password();
-            rotor.Cod(Code); // Передаем введенный пароль в класс  Password()
+            Password rotor = new Password(Code);
+            Console.WriteLine(rotor.Parol);
+            rotor.Parol = "parol123";
+            //rotor.Cod(Code); // Передаем введенный пароль в класс  Password()
             if (rotor.Check())
             {
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dinamik_rotor
 {
-    abstract class Weight // клас высщитывающий вес объекта
+    abstract class Weight // класc высщитывающий вес объекта
     {
         private double pi = Math.PI;
         double m, V;

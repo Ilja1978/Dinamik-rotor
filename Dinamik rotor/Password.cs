@@ -8,13 +8,17 @@ namespace Dinamik_rotor
     {
         private string  parol = "Ilja";
         private string code;
-         public void Cod(string cod)
-         {
+        public Password(string cod) // Это конструктор (он без логики)
+        {
             code = cod;
-         }
-        
-            
-   
+        }
+
+        public string Parol
+        {
+            get;
+            set;
+        }
+
         public bool Check ()
         {
             //Console.WriteLine("\tВАС ПРИВЕТСТВУЕТ ПРОГРАММА РАСЧЕТОВ РОТОРОВ\n");
